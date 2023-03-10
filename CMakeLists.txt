@@ -11,6 +11,7 @@ macro(QVLOG MSG)
     set(QV2RAY_BUILD_STATS "${QV2RAY_BUILD_STATS}${MSG}: ${${MSG}}\r\n")
 endmacro()
 
+
 set(VERSION_LIST ${QV2RAY_VERSION})
 string(REPLACE "." ";" VERSION_LIST ${VERSION_LIST})
 separate_arguments(VERSION_LIST)
