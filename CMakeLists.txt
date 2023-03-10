@@ -302,6 +302,7 @@ else()
     add_definitions(-DQV2RAY_NO_SINGLEAPPLICATON)
 endif()
 
+
 add_library(qv2ray_baselib STATIC
     ${QV2RAY_BASE_SOURCES}
     ${SINGLEAPPLICATION_SOURCES}
